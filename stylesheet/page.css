@@ -1,0 +1,16 @@
+.container-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.login-page {
+    width: 100%;
+    height: 84%;
+    background: url(../images/bg_form.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg_form.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg_form.jpg', sizingMethod='scale')";
+}

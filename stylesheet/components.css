@@ -1,0 +1,97 @@
+.alert-container {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    position: relative;
+    float: right;
+    left: 0;
+    z-index: 9999;
+    margin: 0;
+}
+
+.alert {
+    padding: 7px;
+    margin: 0 -15px;
+}
+
+.alert-danger {
+    background-color: #F55145;
+}
+
+.alert-info {
+    background-color: #00CAE3;
+}
+
+.alert-success {
+    background-color: #55B559;
+}
+
+.alert-warning {
+    background-color: #FF9E0F;
+}
+
+.loader-container {
+    z-index: 9999;
+    border-radius: 0;
+    position: absolute;
+    height: 130px;
+    width: 320px;
+    margin: -65px 0 0 -160px;
+    top: 50%;
+    left: 50%;
+    border: 1px #8f9296 solid;
+}
+
+.loader-container > div {
+    background-color: #fff;
+}
+
+.pagination {
+    margin: 0 !important;
+}
+
+.pagination-previous,
+.pagination-next,
+.pagination-first,
+.pagination-last {
+    padding: 9px 12px !important;
+}
+
+.pagination-group {
+    float: right;
+    display: inline;
+}
+
+.filter-group {
+    float: right;
+}
+
+select.form-control {
+    margin: 0 5px;
+}
+
+/*991px and below*/
+@media (max-width: 991px) {
+    select.form-control {
+        margin: 5px 5px;
+    }
+
+    .table-controls {
+        float: right;
+    }
+
+    .pagination-group {
+        padding-right: 5px;
+    }
+}
+
+.table-controls .form-control {
+    width: auto;
+    display: inline;
+}
+
+@media (max-width: 767px){
+    .alert-container {
+        top: 59px;
+    }
+}
